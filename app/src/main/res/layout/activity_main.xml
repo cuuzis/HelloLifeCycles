@@ -14,27 +14,39 @@
         app:layout_gravity="fill_horizontal"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:text="top left"/>
+        android:text="@string/top_left"
+        android:onClick="onClickPicture"
+        android:gravity="center"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/top_right"
         app:layout_gravity="fill_horizontal"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:text="top right"/>
+        android:onClick="onClickPicture"
+        android:text="@string/top_right"
+        android:gravity="center"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/bottom_left"
         app:layout_gravity="fill_horizontal"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:text="bottom left" />
+        android:onClick="onClickPicture"
+        android:text="@string/bottom_left"
+        android:gravity="center"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/bottom_right"
         app:layout_gravity="fill_horizontal"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:text="bottom right" />
+        android:onClick="onClickPicture"
+        android:text="@string/bottom_right"
+        android:gravity="center"
+        android:textSize="18sp" />
 
 </android.support.v7.widget.GridLayout>
